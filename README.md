@@ -26,7 +26,7 @@ This guide will be using Fedora Workstation 36 with the Gnome (42) desktop envir
   > A lowerish power sleep state. Device wakes up almost immediatelly, often brakes keyboard or touch. Resoved with Kernel 6.1
   
 - [x] **S4 sleep (hibernating)(guide is still missing)**
-  > As an alternative for S3 sleep S4 sleep can be made use of. Requiers a swap partition
+  > As an alternative for S3 sleep S4 sleep can be made use of. Requires a swap partition
   
 - [ ] **S3 sleep (suspending)**
   > No option for regular S3 sleep support; only for Microsofts S0ix sleep which is not supported by Linux, at least for AMD Processors
