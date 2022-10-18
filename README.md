@@ -41,8 +41,6 @@ This guide will be using Fedora Workstation 36 with the Gnome (42) desktop envir
   > The speakers seem to be tuned the heck out of in Windows with Dolby Atmos, also Linux only recognizes 2 out of the 4 speakers
 
 ***
-# [See the wiki for more](../../wiki/Home)
-***
 
 ## Other stuff:
 ### More issues I've noticed:
@@ -61,6 +59,6 @@ This guide will be using Fedora Workstation 36 with the Gnome (42) desktop envir
 - s2idle: https://lkml.org/lkml/2022/9/21/1207
 - Keyboard: https://patchwork.kernel.org/project/linux-acpi/patch/20220712020058.90374-1-gch981213@gmail.com/
 
-
+***
 
 _If you know anything more, have other issues or noticed a mistake i made - feel free to open an issue. thanks :)_
