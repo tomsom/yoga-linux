@@ -3,7 +3,11 @@ _STILL WIP:_
 Run Linux on the Lenovo Yoga 7 14 (14ARB7) with AMD Ryzen 6800U (Rembrand).
 This guide will be using Fedora Workstation 36 with the Gnome (42) desktop environment.
 ## [🖝 Check out the wiki](../../wiki/)
+
 ***
+_You might also want to take a look at the Arch Wiki article on this device [here.](https://wiki.archlinux.org/title/Lenovo_Yoga_7_Gen_7_(14ARB7))_
+***
+
 ### _Update:_
 - **since Kernel 6.0:**
   > Keyboard works(without patching)
@@ -48,6 +52,7 @@ This guide will be using Fedora Workstation 36 with the Gnome (42) desktop envir
 - Waking up from hibernation often needs longer than a reboot/regular system start
 
 ### Resources:
+- Arch Wiki article: https://wiki.archlinux.org/title/Lenovo_Yoga_7_Gen_7_(14ARB7)
 - More on sleep states: https://www.kernel.org/doc/Documentation/power/states.txt
 
 ### Relevant patches:
