@@ -1,8 +1,8 @@
-# STILL WIP:
+_STILL WIP:_
 # yoga-linux
 Run Linux on the Lenovo Yoga 7 14 (14ARB7) with AMD Ryzen 6800U (Rembrand).
 This guide will be using Fedora Workstation 36 with the Gnome (42) desktop environment.
-
+## [Check out the wiki](../../wiki/)
 ***
 ### _Update:_
 - **since Kernel 6.0:**
