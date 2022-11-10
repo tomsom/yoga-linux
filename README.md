@@ -29,6 +29,9 @@ _You might also want to take a look at the Arch Wiki article on this device [her
 - [x] **S0 sleep (s2idle)**
   > A lowerish power sleep state. Device wakes up almost immediatelly, often brakes keyboard or touch. Resoved with Kernel 6.1
   
+- [x] **The speakers suck**
+  > Switch to the bottom firing woofers makes the sound bearable, having all 4 speakers working in parallel is still wip
+  
 - [x] **S4 sleep (hibernating)(guide is still missing)**
   > As an alternative for S3 sleep S4 sleep can be made use of. Requires a swap partition
   
@@ -41,8 +44,6 @@ _You might also want to take a look at the Arch Wiki article on this device [her
 - [ ] **GRUB scaling**
   > Because of the 2.8K display the text in GRUB is very small and hardly readable
   
-- [ ] **The speakers suck**
-  > The speakers seem to be tuned the heck out of in Windows with Dolby Atmos, also Linux only recognizes 2 out of the 4 speakers
 
 ***
 
