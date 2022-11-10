@@ -16,9 +16,11 @@ _You might also want to take a look at the Arch Wiki article on this device [her
   > Mic is working
   
   > Machine seems to go reliably to s2idle state(and is also waking up without issues)
+
+_**for more infos take a look at the issues**_
 ***
 
-## Issues:
+## Problems:
 
 - [x] **Keyboard not working**
   > The keyboard wont be working out of the box. The issue is resolved with Linux Kernel 6.0
