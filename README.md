@@ -41,6 +41,7 @@
 
 - [ ] **GRUB scaling**
   > Because of the 2.8K display the text in GRUB is very small and hardly readable
+  > This can be partially fixed by using a GRUB theme that forces a font size, or manually configuring GRUB
 
 ## Other stuff:
 ### More issues I've noticed:
