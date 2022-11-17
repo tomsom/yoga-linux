@@ -37,6 +37,7 @@
 
 - [ ] **Screen rotation**
   > Does not work out of the box in GNOME for some reason
+  > However, [this](https://extensions.gnome.org/extension/5389/screen-rotate/) extension fixes this for Wayland, as long as `iio-sensor-proxy` is installed
 
 - [ ] **GRUB scaling**
   > Because of the 2.8K display the text in GRUB is very small and hardly readable
