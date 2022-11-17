@@ -9,7 +9,7 @@
 ## Updates:
  - **Kernel 6.1+:**
   > Mic is working
-  > Machine seems to go reliably to s2idle state (and is also waking up without issues)
+  > Machine seems to go reliably to s2idle state (and is also waking up without issues for most laptops)
 
  - **Kernel 6.0+:**
   > Keyboard works without patching
@@ -42,6 +42,17 @@
 - [ ] **GRUB scaling**
   > Because of the 2.8K display the text in GRUB is very small and hardly readable
   > This can be partially fixed by using a GRUB theme that forces a font size, or manually configuring GRUB
+
+## Other issues:
+ - These issues don't seem to impact all Yoga 7 Gen 7 users
+ - **Cursor jumps around the screen**
+  - This is caused by PSR (Panel Self-Refresh), and can be worked around using `amdgpu.dcdebugmask=0x10` as a kernel parameter
+  - This value is documented [here](https://github.com/torvalds/linux/blob/8813381a62e1f1703f8fbeccc5fa4fcc988be882/drivers/gpu/drm/amd/include/amd_shared.h#L250)
+
+ - **System crashes after resuming**
+  - Yoga laptops with Samsung SSDs may become unstable after resuming from s2idle
+  - This is a firmware bug in the SSD (PCI ID `0xa80b`)
+  - This issue is better documented [here](https://github.com/tomsom/yoga-linux/issues/9)
 
 ## Other stuff:
 ### More issues I've noticed:
