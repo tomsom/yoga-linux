@@ -14,7 +14,7 @@
  - **Kernel 6.0+:**
    > Keyboard works without patching
 
- - _**For more information take a look at the issues**_
+ - _**For more information take a look at the [issues](https://github.com/tomsom/yoga-linux/issues)**_
 
 ## Problems:
  - [x] **Keyboard not working**
