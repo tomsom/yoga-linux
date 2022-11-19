@@ -31,14 +31,12 @@
 
  - [x] **S4 sleep (hibernating) (guide is still missing)**
    > As an alternative for S3 sleep S4 sleep can be made use of (requires a swap partition)
+   
+ - [x] **Screen rotation**
+   > Automatic rotation does not work out of the box in GNOME for some reason. Can be fixed with an [extension](https://github.com/shyzus/gnome-shell-extension-screen-autorotate).
 
  - [ ] **S3 sleep (suspending)**
    > No option for regular S3 sleep support; only for Microsofts S0ix sleep which is not supported by Linux, at least for AMD Processors
-
- - [ ] **Screen rotation**
-   > Does not work out of the box in GNOME for some reason
-   >
-   > However, [this](https://extensions.gnome.org/extension/5389/screen-rotate/) extension fixes this for Wayland, as long as `iio-sensor-proxy` is installed
 
  - [ ] **GRUB scaling**
    > Because of the 2.8K display the text in GRUB is very small and hardly readable
