@@ -18,7 +18,7 @@
 
 ## Problems:
  - [x] **Keyboard not working**
-   > The keyboard doesn't be work out of the box (Fixed in kernel 6.0)
+   > The keyboard doesn't work out of the box (Fixed in kernel 6.0)
 
  - [x] **Internal mic not working**
    > Internal mic does not work (Fixed in kernel 6.1)
@@ -37,6 +37,7 @@
 
  - [ ] **Screen rotation**
    > Does not work out of the box in GNOME for some reason
+   >
    > However, [this](https://extensions.gnome.org/extension/5389/screen-rotate/) extension fixes this for Wayland, as long as `iio-sensor-proxy` is installed
 
  - [ ] **GRUB scaling**
