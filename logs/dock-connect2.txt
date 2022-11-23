@@ -1,0 +1,427 @@
+Nov 23 22:15:00 fedora kernel: usb 9-1: new high-speed USB device number 2 using xhci_hcd
+Nov 23 22:15:00 fedora kernel: ACPI Error: No handler for Region [ECSI] (00000000818db886) [EmbeddedControl] (20220331/evregion-130)
+Nov 23 22:15:00 fedora kernel: ACPI Error: Region EmbeddedControl (ID=3) has no handler (20220331/exfldio-261)
+Nov 23 22:15:00 fedora kernel: 
+Nov 23 22:15:00 fedora kernel: No Local Variables are initialized for Method [ECRD]
+Nov 23 22:15:00 fedora kernel: 
+Nov 23 22:15:00 fedora kernel: No Arguments are initialized for method [ECRD]
+Nov 23 22:15:00 fedora kernel: 
+Nov 23 22:15:00 fedora kernel: ACPI Error: Aborting method \_SB.UBTC.ECRD due to previous error (AE_NOT_EXIST) (20220331/psparse-529)
+Nov 23 22:15:00 fedora kernel: ACPI Error: Aborting method \_SB.UBTC.NTFY due to previous error (AE_NOT_EXIST) (20220331/psparse-529)
+Nov 23 22:15:00 fedora kernel: ACPI Error: Aborting method \_SB.PCI0.LPC0.EC0._Q4F due to previous error (AE_NOT_EXIST) (20220331/psparse-529)
+Nov 23 22:15:01 fedora kernel: usb 9-1: New USB device found, idVendor=2109, idProduct=2817, bcdDevice= 6.44
+Nov 23 22:15:00 fedora kernel: No Arguments are initialized for method [ECRD]
+Nov 23 22:15:00 fedora kernel: 
+Nov 23 22:15:00 fedora kernel: ACPI Error: Aborting method \_SB.UBTC.ECRD due to previous error (AE_NOT_EXIST) (20220331/psparse-529)
+Nov 23 22:15:00 fedora kernel: ACPI Error: Aborting method \_SB.UBTC.NTFY due to previous error (AE_NOT_EXIST) (20220331/psparse-529)
+Nov 23 22:15:00 fedora kernel: ACPI Error: Aborting method \_SB.PCI0.LPC0.EC0._Q4F due to previous error (AE_NOT_EXIST) (20220331/psparse-529)
+Nov 23 22:15:01 fedora kernel: usb 9-1: New USB device found, idVendor=2109, idProduct=2817, bcdDevice= 6.44
+Nov 23 22:15:01 fedora kernel: usb 9-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Nov 23 22:15:01 fedora kernel: usb 9-1: Product: USB2.0 Hub             
+Nov 23 22:15:01 fedora kernel: usb 9-1: Manufacturer: VIA Labs, Inc.         
+Nov 23 22:15:01 fedora kernel: usb 9-1: SerialNumber: 000000000
+Nov 23 22:15:01 fedora kernel: hub 9-1:1.0: USB hub found
+Nov 23 22:15:01 fedora kernel: hub 9-1:1.0: 5 ports detected
+Nov 23 22:15:01 fedora kernel: usb 10-1: new SuperSpeed USB device number 2 using xhci_hcd
+Nov 23 22:15:01 fedora kernel: usb 10-1: New USB device found, idVendor=2109, idProduct=0817, bcdDevice= 6.44
+Nov 23 22:15:01 fedora kernel: usb 10-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Nov 23 22:15:01 fedora kernel: usb 10-1: Product: USB3.0 Hub             
+Nov 23 22:15:01 fedora kernel: usb 10-1: Manufacturer: VIA Labs, Inc.         
+Nov 23 22:15:01 fedora kernel: usb 10-1: SerialNumber: 000000000
+Nov 23 22:15:01 fedora kernel: hub 10-1:1.0: USB hub found
+Nov 23 22:15:01 fedora kernel: hub 10-1:1.0: 4 ports detected
+Nov 23 22:15:01 fedora kernel: usb 9-1.3: new full-speed USB device number 3 using xhci_hcd
+Nov 23 22:15:01 fedora boltd[1934]: probing: started [1000]
+Nov 23 22:15:01 fedora realmd[3915]: quitting realmd service after timeout
+Nov 23 22:15:01 fedora realmd[3915]: stopping service
+Nov 23 22:15:01 fedora systemd[1]: realmd.service: Deactivated successfully.
+Nov 23 22:15:01 fedora audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=realmd comm="systemd" exe="/usr/lib/syste>
+Nov 23 22:15:02 fedora kernel: usb 9-1.3: New USB device found, idVendor=0d8c, idProduct=0014, bcdDevice= 1.00
+Nov 23 22:15:02 fedora kernel: usb 9-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Nov 23 22:15:02 fedora kernel: usb 9-1.3: Product: USB Audio Device
+Nov 23 22:15:02 fedora kernel: usb 9-1.3: Manufacturer: C-Media Electronics Inc.
+Nov 23 22:15:02 fedora kernel: input: C-Media Electronics Inc. USB Audio Device as /devices/pci0000:00/0000:00:08.3/0000:34:00.4/usb9/9-1/9-1.3/9-1.3:1.3/0003:0D8C:0014.0008>
+Nov 23 22:15:02 fedora kernel: hid-generic 0003:0D8C:0014.0008: input,hidraw6: USB HID v1.00 Device [C-Media Electronics Inc. USB Audio Device] on usb-0000:34:00.4-1.3/input3
+Nov 23 22:15:02 fedora kernel: usb 10-1.4: new SuperSpeed USB device number 3 using xhci_hcd
+Nov 23 22:15:02 fedora kernel: usb 10-1.4: New USB device found, idVendor=2109, idProduct=0815, bcdDevice= 7.01
+Nov 23 22:15:02 fedora kernel: usb 10-1.4: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Nov 23 22:15:02 fedora kernel: usb 10-1.4: Product: USB3.0 Hub             
+Nov 23 22:15:02 fedora kernel: usb 10-1.4: Manufacturer: VIA Labs, Inc.         
+Nov 23 22:15:02 fedora kernel: hub 10-1.4:1.0: USB hub found
+Nov 23 22:15:02 fedora kernel: hub 10-1.4:1.0: 4 ports detected
+Nov 23 22:15:02 fedora kernel: usb 9-1.4: new high-speed USB device number 4 using xhci_hcd
+Nov 23 22:15:02 fedora kernel: usb 9-1.4: New USB device found, idVendor=2109, idProduct=2815, bcdDevice= 7.01
+Nov 23 22:15:02 fedora kernel: usb 9-1.4: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Nov 23 22:15:02 fedora kernel: usb 9-1.4: Product: USB2.0 Hub             
+Nov 23 22:15:02 fedora kernel: usb 9-1.4: Manufacturer: VIA Labs, Inc.         
+Nov 23 22:15:02 fedora kernel: hub 9-1.4:1.0: USB hub found
+Nov 23 22:15:02 fedora kernel: hub 9-1.4:1.0: 4 ports detected
+Nov 23 22:15:02 fedora kernel: usb 9-1.5: new high-speed USB device number 5 using xhci_hcd
+Nov 23 22:15:02 fedora kernel: usb 9-1.5: New USB device found, idVendor=2109, idProduct=8817, bcdDevice= 0.01
+Nov 23 22:15:02 fedora kernel: usb 9-1.5: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Nov 23 22:15:02 fedora kernel: usb 9-1.5: Product: USB Billboard Device   
+Nov 23 22:15:02 fedora kernel: usb 9-1.5: Manufacturer: VIA Labs, Inc.         
+Nov 23 22:15:02 fedora kernel: usb 9-1.5: SerialNumber: 0000000000000001
+Nov 23 22:15:02 fedora fprintd[4285]: libusb: error [udev_hotplug_event] ignoring udev action change
+Nov 23 22:15:02 fedora fprintd[4285]: libusb: error [udev_hotplug_event] ignoring udev action change
+Nov 23 22:15:02 fedora mtp-probe[5778]: checking bus 9, device 3: "/sys/devices/pci0000:00/0000:00:08.3/0000:34:00.4/usb9/9-1/9-1.3"
+Nov 23 22:15:02 fedora mtp-probe[5778]: bus: 9, device: 3 was not an MTP device
+Nov 23 22:15:02 fedora kernel: usb 10-1.4.3: new SuperSpeed USB device number 4 using xhci_hcd
+Nov 23 22:15:02 fedora kernel: usb 10-1.4.3: New USB device found, idVendor=05e3, idProduct=0749, bcdDevice=15.33
+Nov 23 22:15:02 fedora kernel: usb 10-1.4.3: New USB device strings: Mfr=3, Product=4, SerialNumber=5
+Nov 23 22:15:02 fedora kernel: usb 10-1.4.3: Product: USB3.0 Card Reader
+Nov 23 22:15:02 fedora kernel: usb 10-1.4.3: Manufacturer: Generic
+Nov 23 22:15:02 fedora kernel: usb 10-1.4.3: SerialNumber: 000000001533
+Nov 23 22:15:02 fedora fprintd[4285]: libusb: error [udev_hotplug_event] ignoring udev action change
+Nov 23 22:15:02 fedora mtp-probe[5831]: checking bus 10, device 4: "/sys/devices/pci0000:00/0000:00:08.3/0000:34:00.4/usb10/10-1/10-1.4/10-1.4.3"
+Nov 23 22:15:02 fedora mtp-probe[5831]: bus: 10, device: 4 was not an MTP device
+Nov 23 22:15:03 fedora kernel: [drm] DP Alt mode state on HPD: 1
+Nov 23 22:15:03 fedora kernel: [drm] DM_MST: starting TM on aconnector: 000000000d326e05 [id: 94]
+Nov 23 22:15:03 fedora tlp[5850]: Error: conflicting power-profiles-daemon.service is enabled, power saving will not apply on boot.
+Nov 23 22:15:03 fedora tlp[5849]: Error: conflicting power-profiles-daemon.service is enabled, power saving will not apply on boot.
+Nov 23 22:15:03 fedora tlp[5850]: >>> Invoke 'systemctl mask power-profiles-daemon.service' to correct this!
+Nov 23 22:15:03 fedora tlp[5849]: >>> Invoke 'systemctl mask power-profiles-daemon.service' to correct this!
+Nov 23 22:15:03 fedora tlp[5850]: Warning: systemd-rfkill.service is not masked, radio device switching may not work as configured.
+Nov 23 22:15:03 fedora tlp[5850]: >>> Invoke 'systemctl mask systemd-rfkill.service' to correct this.
+Nov 23 22:15:03 fedora tlp[5849]: Warning: systemd-rfkill.service is not masked, radio device switching may not work as configured.
+Nov 23 22:15:03 fedora tlp[5849]: >>> Invoke 'systemctl mask systemd-rfkill.service' to correct this.
+Nov 23 22:15:03 fedora tlp[5850]: Warning: systemd-rfkill.socket is not masked, radio device switching may not work as configured.
+Nov 23 22:15:03 fedora tlp[5850]: >>> Invoke 'systemctl mask systemd-rfkill.socket' to correct this.
+Nov 23 22:15:03 fedora tlp[5849]: Warning: systemd-rfkill.socket is not masked, radio device switching may not work as configured.
+Nov 23 22:15:03 fedora tlp[5849]: >>> Invoke 'systemctl mask systemd-rfkill.socket' to correct this.
+Nov 23 22:15:03 fedora kernel: cmedia_hs100b 0003:0D8C:0014.0008: Fixing CMedia HS-100B report descriptor
+Nov 23 22:15:03 fedora kernel: input: C-Media Electronics Inc. USB Audio Device as /devices/pci0000:00/0000:00:08.3/0000:34:00.4/usb9/9-1/9-1.3/9-1.3:1.3/0003:0D8C:0014.0008>
+Nov 23 22:15:03 fedora kernel: cmedia_hs100b 0003:0D8C:0014.0008: input,hidraw6: USB HID v1.00 Device [C-Media Electronics Inc. USB Audio Device] on usb-0000:34:00.4-1.3/inp>
+Nov 23 22:15:03 fedora kernel: usb-storage 10-1.4.3:1.0: USB Mass Storage device detected
+Nov 23 22:15:03 fedora kernel: scsi host0: usb-storage 10-1.4.3:1.0
+Nov 23 22:15:03 fedora kernel: usbcore: registered new interface driver usb-storage
+Nov 23 22:15:03 fedora kernel: usbcore: registered new interface driver uas
+Nov 23 22:15:03 fedora mtp-probe[5982]: checking bus 10, device 4: "/sys/devices/pci0000:00/0000:00:08.3/0000:34:00.4/usb10/10-1/10-1.4/10-1.4.3"
+Nov 23 22:15:03 fedora mtp-probe[5982]: bus: 10, device: 4 was not an MTP device
+Nov 23 22:15:03 fedora kernel: usbcore: registered new interface driver snd-usb-audio
+Nov 23 22:15:03 fedora mtp-probe[6013]: checking bus 9, device 3: "/sys/devices/pci0000:00/0000:00:08.3/0000:34:00.4/usb9/9-1/9-1.3"
+Nov 23 22:15:03 fedora mtp-probe[6013]: bus: 9, device: 3 was not an MTP device
+Nov 23 22:15:03 fedora systemd[3457]: Reached target sound.target - Sound Card.
+Nov 23 22:15:03 fedora kernel: usb 10-1.4.2: new SuperSpeed USB device number 5 using xhci_hcd
+Nov 23 22:15:03 fedora kernel: usb 10-1.4.2: New USB device found, idVendor=0bda, idProduct=8153, bcdDevice=31.00
+Nov 23 22:15:03 fedora kernel: usb 10-1.4.2: New USB device strings: Mfr=1, Product=2, SerialNumber=6
+Nov 23 22:15:03 fedora kernel: usb 10-1.4.2: Product: USB 10/100/1000 LAN
+Nov 23 22:15:03 fedora kernel: usb 10-1.4.2: Manufacturer: Realtek
+Nov 23 22:15:03 fedora kernel: usb 10-1.4.2: SerialNumber: 001000001
+Nov 23 22:15:03 fedora fprintd[4285]: libusb: error [udev_hotplug_event] ignoring udev action change
+Nov 23 22:15:04 fedora mtp-probe[6028]: checking bus 10, device 5: "/sys/devices/pci0000:00/0000:00:08.3/0000:34:00.4/usb10/10-1/10-1.4/10-1.4.2"
+Nov 23 22:15:04 fedora mtp-probe[6028]: bus: 10, device: 5 was not an MTP device
+Nov 23 22:15:04 fedora kernel: [drm] Downstream port present 1, type 2
+Nov 23 22:15:04 fedora bluetoothd[1941]: src/profile.c:record_cb() Unable to get Hands-Free Voice gateway SDP record: Host is down
+Nov 23 22:15:04 fedora fprintd[4285]: libusb: error [udev_hotplug_event] ignoring udev action change
+Nov 23 22:15:04 fedora kernel: scsi 0:0:0:0: Direct-Access     Generic  MassStorageClass 1533 PQ: 0 ANSI: 6
+Nov 23 22:15:04 fedora kernel: scsi 0:0:0:1: Direct-Access     Generic  MassStorageClass 1533 PQ: 0 ANSI: 6
+Nov 23 22:15:04 fedora kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+Nov 23 22:15:04 fedora kernel: sd 0:0:0:1: Attached scsi generic sg1 type 0
+Nov 23 22:15:04 fedora kernel: sd 0:0:0:0: [sda] Media removed, stopped polling
+Nov 23 22:15:04 fedora kernel: sd 0:0:0:1: [sdb] Media removed, stopped polling
+Nov 23 22:15:04 fedora systemd[1]: fprintd.service: Deactivated successfully.
+Nov 23 22:15:04 fedora kernel: sd 0:0:0:1: [sdb] Attached SCSI removable disk
+Nov 23 22:15:04 fedora kernel: sd 0:0:0:0: [sda] Attached SCSI removable disk
+Nov 23 22:15:04 fedora audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=fprintd comm="systemd" exe="/usr/lib/syst>
+Nov 23 22:15:04 fedora audit: BPF prog-id=0 op=UNLOAD
+Nov 23 22:15:04 fedora kernel: usbcore: registered new interface driver r8152
+Nov 23 22:15:04 fedora kernel: usbcore: registered new interface driver cdc_ether
+Nov 23 22:15:04 fedora kernel: usbcore: registered new interface driver r8153_ecm
+Nov 23 22:15:05 fedora kernel: usb 10-1.4.2: reset SuperSpeed USB device number 5 using xhci_hcd
+Nov 23 22:15:05 fedora kernel: r8152 10-1.4.2:1.0: load rtl8153b-2 v1 10/23/19 successfully
+Nov 23 22:15:05 fedora kernel: r8152 10-1.4.2:1.0 eth0: v1.12.13
+Nov 23 22:15:05 fedora NetworkManager[1980]: <info>  [1669238105.1176] manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/3)
+Nov 23 22:15:05 fedora mtp-probe[6117]: checking bus 10, device 5: "/sys/devices/pci0000:00/0000:00:08.3/0000:34:00.4/usb10/10-1/10-1.4/10-1.4.2"
+Nov 23 22:15:05 fedora mtp-probe[6117]: bus: 10, device: 5 was not an MTP device
+Nov 23 22:15:05 fedora systemd-udevd[6102]: Using default interface naming scheme 'v250'.
+Nov 23 22:15:05 fedora kernel: r8152 10-1.4.2:1.0 enp52s0f4u1u4u2: renamed from eth0
+Nov 23 22:15:05 fedora systemd[1]: Stopping user@42.service - User Manager for UID 42...
+Nov 23 22:15:05 fedora systemd[3457]: Activating special unit exit.target...
+Nov 23 22:15:05 fedora systemd[3457]: Stopped target default.target - Main User Target.
+Nov 23 22:15:05 fedora systemd[3457]: Stopped target sound.target - Sound Card.
+Nov 23 22:15:05 fedora systemd[3457]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+Nov 23 22:15:05 fedora systemd[3457]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+Nov 23 22:15:05 fedora wireplumber[3622]: stopped by signal: Terminated
+Nov 23 22:15:05 fedora systemd[3457]: Stopping wireplumber.service - Multimedia Service Session Manager...
+Nov 23 22:15:05 fedora wireplumber[3622]: disconnected from pipewire
+Nov 23 22:15:05 fedora NetworkManager[1980]: <info>  [1669238105.2206] device (eth0): interface index 3 renamed iface from 'eth0' to 'enp52s0f4u1u4u2'
+Nov 23 22:15:05 fedora systemd[3457]: Stopped wireplumber.service - Multimedia Service Session Manager.
+Nov 23 22:15:05 fedora systemd[3457]: Stopping pipewire.service - PipeWire Multimedia Service...
+Nov 23 22:15:05 fedora systemd[3457]: Stopped pipewire.service - PipeWire Multimedia Service.
+Nov 23 22:15:05 fedora systemd[3457]: Stopped target basic.target - Basic System.
+Nov 23 22:15:05 fedora systemd[3457]: Stopped target paths.target - Paths.
+Nov 23 22:15:05 fedora systemd[3457]: Stopped target sockets.target - Sockets.
+Nov 23 22:15:05 fedora systemd[3457]: Stopped target timers.target - Timers.
+Nov 23 22:15:05 fedora systemd[3457]: Stopped systemd-tmpfiles-clean.timer - Daily Cleanup of User's Temporary Directories.
+Nov 23 22:15:05 fedora systemd[3457]: Closed pipewire-pulse.socket - PipeWire PulseAudio.
+Nov 23 22:15:05 fedora systemd[3457]: Closed pipewire.socket - PipeWire Multimedia System Socket.
+Nov 23 22:15:05 fedora dbus-broker[3492]: Dispatched 240 messages @ 11(±40)μs / message.
+Nov 23 22:15:05 fedora systemd[3457]: Stopping dbus-broker.service - D-Bus User Message Bus...
+Nov 23 22:15:05 fedora systemd[3457]: Stopped systemd-tmpfiles-setup.service - Create User's Volatile Files and Directories.
+Nov 23 22:15:05 fedora systemd[3457]: Stopped dbus-broker.service - D-Bus User Message Bus.
+Nov 23 22:15:05 fedora NetworkManager[1980]: <info>  [1669238105.2424] device (enp52s0f4u1u4u2): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: '>
+Nov 23 22:15:05 fedora systemd[3457]: Removed slice session.slice - User Core Session Slice.
+Nov 23 22:15:05 fedora systemd[3457]: Closed dbus.socket - D-Bus User Message Bus Socket.
+Nov 23 22:15:05 fedora systemd[3457]: Removed slice app.slice - User Application Slice.
+Nov 23 22:15:05 fedora systemd[3457]: Reached target shutdown.target - Shutdown.
+Nov 23 22:15:05 fedora systemd[3457]: Finished systemd-exit.service - Exit the Session.
+Nov 23 22:15:05 fedora systemd[3457]: Reached target exit.target - Exit the Session.
+Nov 23 22:15:05 fedora NetworkManager[1980]: <info>  [1669238105.2529] settings: (enp52s0f4u1u4u2): created default wired connection 'Wired connection 1'
+Nov 23 22:15:05 fedora systemd-udevd[5776]: Using default interface naming scheme 'v250'.
+Nov 23 22:15:05 fedora systemd[1]: user@42.service: Deactivated successfully.
+Nov 23 22:15:05 fedora audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=user@42 comm="systemd" exe="/usr/lib/syst>
+Nov 23 22:15:05 fedora systemd[1]: Stopped user@42.service - User Manager for UID 42.
+Nov 23 22:15:05 fedora systemd[1]: Stopping user-runtime-dir@42.service - User Runtime Directory /run/user/42...
+Nov 23 22:15:05 fedora systemd[1]: run-user-42.mount: Deactivated successfully.
+Nov 23 22:15:05 fedora systemd[1]: user-runtime-dir@42.service: Deactivated successfully.
+Nov 23 22:15:05 fedora systemd[1]: Stopped user-runtime-dir@42.service - User Runtime Directory /run/user/42.
+Nov 23 22:15:05 fedora audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=user-runtime-dir@42 comm="systemd" exe="/>
+Nov 23 22:15:05 fedora systemd[1]: Removed slice user-42.slice - User Slice of UID 42.
+Nov 23 22:15:05 fedora systemd[1]: user-42.slice: Consumed 10.028s CPU time.
+Nov 23 22:15:05 fedora abrt-server[4002]: Deleting problem directory ccpp-2022-11-23-22:13:58.956859-3490 (dup of ccpp-2022-11-23-21:48:54.992457-3492)
+Nov 23 22:15:05 fedora abrt-notification[6264]: [🡕] Process 3492 (org_kde_powerdevil) crashed in qt_message_output(QtMsgType, QMessageLogContext const&, QString const&) [clo>
+Nov 23 22:15:05 fedora kernel: ------------[ cut here ]------------
+Nov 23 22:15:05 fedora kernel: DEBUG_LOCKS_WARN_ON(lock->magic != lock)
+Nov 23 22:15:05 fedora kernel: WARNING: CPU: 15 PID: 4365 at kernel/locking/mutex.c:582 __mutex_lock+0x6e7/0x850
+Nov 23 22:15:05 fedora kernel: Modules linked in: r8153_ecm cdc_ether usbnet r8152 mii uas usb_storage snd_usb_audio snd_usbmidi_lib hid_cmedia snd_rawmidi uinput rfcomm snd>
+Nov 23 22:15:05 fedora kernel:  snd_pcm_dmaengine snd_rpl_pci_acp6x snd_pci_acp6x kvm snd_hda_core snd_hwdep irqbypass mac80211 hid_sensor_accel_3d snd_seq rapl hid_sensor_t>
+Nov 23 22:15:05 fedora kernel: CPU: 15 PID: 4365 Comm: Xorg Not tainted 6.1.0-0.rc4.20221108git59f2f4b8a757.36.fc38.x86_64 #1
+Nov 23 22:15:05 fedora kernel: Hardware name: LENOVO 82QF/LNVNB161216, BIOS K5CN27WW 05/08/2022
+Nov 23 22:15:05 fedora kernel: RIP: 0010:__mutex_lock+0x6e7/0x850
+Nov 23 22:15:05 fedora kernel: Code: ff 85 c0 0f 84 c0 f9 ff ff 8b 15 9c 1d 68 01 85 d2 0f 85 b2 f9 ff ff 48 c7 c6 f8 ee 91 9c 48 c7 c7 1b f0 8f 9c e8 5d ae f7 ff <0f> 0b e9>
+Nov 23 22:15:05 fedora kernel: RSP: 0018:ffffb954ce06b8c0 EFLAGS: 00010296
+Nov 23 22:15:05 fedora kernel: RAX: 0000000000000028 RBX: 0000000000000000 RCX: 0000000000000000
+Nov 23 22:15:05 fedora kernel: RDX: 0000000000000001 RSI: ffffffff9c992f53 RDI: 00000000ffffffff
+Nov 23 22:15:05 fedora kernel: RBP: ffffb954ce06b950 R08: 0000000000000000 R09: ffffb954ce06b758
+Nov 23 22:15:05 fedora kernel: R10: 0000000000000003 R11: ffffffff9d3664e8 R12: 0000000000000002
+Nov 23 22:15:05 fedora kernel: R13: 0000000000000000 R14: ffff9a1941168958 R15: 0000000000000001
+Nov 23 22:15:05 fedora kernel: FS:  00007fda9566efc0(0000) GS:ffff9a1c2fe00000(0000) knlGS:0000000000000000
+Nov 23 22:15:05 fedora kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+Nov 23 22:15:05 fedora kernel: CR2: 0000560c51a42328 CR3: 0000000116970000 CR4: 0000000000750ee0
+Nov 23 22:15:05 fedora kernel: PKRU: 55555554
+Nov 23 22:15:05 fedora kernel: Call Trace:
+Nov 23 22:15:05 fedora kernel:  <TASK>
+Nov 23 22:15:05 fedora kernel:  ? pre_validate_dsc+0x3b7/0x480 [amdgpu]
+Nov 23 22:15:05 fedora kernel:  ? create_validate_stream_for_sink+0xf0/0x170 [amdgpu]
+Nov 23 22:15:05 fedora kernel:  ? pre_validate_dsc+0x3b7/0x480 [amdgpu]
+Nov 23 22:15:05 fedora kernel:  pre_validate_dsc+0x3b7/0x480 [amdgpu]
+Nov 23 22:15:05 fedora kernel:  amdgpu_dm_atomic_check+0x45f/0x11d0 [amdgpu]
+Nov 23 22:15:05 fedora kernel:  drm_atomic_check_only+0x542/0xbd0
+Nov 23 22:15:05 fedora kernel:  drm_atomic_commit+0x48/0xd0
+Nov 23 22:15:05 fedora kernel:  ? drm_plane_get_damage_clips.cold+0x1c/0x1c
+Nov 23 22:15:05 fedora kernel:  drm_atomic_helper_set_config+0x70/0xb0
+Nov 23 22:15:05 fedora kernel:  drm_mode_setcrtc+0x438/0x860
+Nov 23 22:15:05 fedora kernel:  ? drm_mode_getcrtc+0x190/0x190
+Nov 23 22:15:05 fedora kernel:  drm_ioctl_kernel+0xac/0x160
+Nov 23 22:15:05 fedora kernel:  drm_ioctl+0x1e7/0x450
+Nov 23 22:15:05 fedora kernel:  ? drm_mode_getcrtc+0x190/0x190
+Nov 23 22:15:05 fedora kernel:  amdgpu_drm_ioctl+0x4a/0x80 [amdgpu]
+Nov 23 22:15:05 fedora kernel:  __x64_sys_ioctl+0x90/0xd0
+Nov 23 22:15:05 fedora kernel:  do_syscall_64+0x5b/0x80
+Nov 23 22:15:05 fedora kernel:  ? lock_is_held_type+0xe8/0x140
+Nov 23 22:15:05 fedora kernel:  ? do_syscall_64+0x67/0x80
+Nov 23 22:15:05 fedora kernel:  ? lockdep_hardirqs_on+0x7d/0x100
+Nov 23 22:15:05 fedora kernel:  ? do_syscall_64+0x67/0x80
+Nov 23 22:15:05 fedora kernel:  ? lockdep_hardirqs_on+0x7d/0x100
+Nov 23 22:15:05 fedora kernel:  ? do_syscall_64+0x67/0x80
+Nov 23 22:15:05 fedora kernel:  ? do_syscall_64+0x67/0x80
+Nov 23 22:15:05 fedora kernel:  ? do_syscall_64+0x67/0x80
+Nov 23 22:15:05 fedora kernel:  ? lockdep_hardirqs_on+0x7d/0x100
+Nov 23 22:15:05 fedora kernel:  entry_SYSCALL_64_after_hwframe+0x63/0xcd
+Nov 23 22:15:05 fedora kernel: RIP: 0033:0x7fda95d0748f
+Nov 23 22:15:05 fedora kernel: Code: 00 48 89 44 24 18 31 c0 48 8d 44 24 60 c7 04 24 10 00 00 00 48 89 44 24 08 48 8d 44 24 20 48 89 44 24 10 b8 10 00 00 00 0f 05 <89> c2 3d>
+Nov 23 22:15:05 fedora kernel: RSP: 002b:00007ffd6eb3da80 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+Nov 23 22:15:05 fedora kernel: RAX: ffffffffffffffda RBX: 0000560c514461f0 RCX: 00007fda95d0748f
+Nov 23 22:15:05 fedora kernel: RDX: 00007ffd6eb3db10 RSI: 00000000c06864a2 RDI: 000000000000000e
+Nov 23 22:15:05 fedora kernel: RBP: 00007ffd6eb3db10 R08: 0000000000000000 R09: 0000560c514462a0
+Nov 23 22:15:05 fedora kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 00000000c06864a2
+Nov 23 22:15:05 fedora kernel: R13: 000000000000000e R14: 0000560c50990c40 R15: 0000560c507f09b0
+Nov 23 22:15:05 fedora kernel:  </TASK>
+Nov 23 22:15:05 fedora kernel: irq event stamp: 3002043
+Nov 23 22:15:05 fedora kernel: hardirqs last  enabled at (3002043): [<ffffffff9b366362>] mod_lruvec_page_state.constprop.0+0x42/0x50
+Nov 23 22:15:05 fedora kernel: hardirqs last disabled at (3002042): [<ffffffff9b36634e>] mod_lruvec_page_state.constprop.0+0x2e/0x50
+Nov 23 22:15:05 fedora kernel: softirqs last  enabled at (3001854): [<ffffffff9b1012ed>] __irq_exit_rcu+0xed/0x160
+Nov 23 22:15:05 fedora kernel: softirqs last disabled at (3001849): [<ffffffff9b1012ed>] __irq_exit_rcu+0xed/0x160
+Nov 23 22:15:05 fedora kernel: ---[ end trace 0000000000000000 ]---
+Nov 23 22:15:05 fedora kernel: ------------[ cut here ]------------
+Nov 23 22:15:05 fedora kernel: WARNING: CPU: 15 PID: 4365 at drivers/gpu/drm/drm_modeset_lock.c:317 modeset_lock+0x18d/0x1d0
+Nov 23 22:15:05 fedora kernel: Modules linked in: r8153_ecm cdc_ether usbnet r8152 mii uas usb_storage snd_usb_audio snd_usbmidi_lib hid_cmedia snd_rawmidi uinput rfcomm snd>
+Nov 23 22:15:05 fedora kernel:  snd_pcm_dmaengine snd_rpl_pci_acp6x snd_pci_acp6x kvm snd_hda_core snd_hwdep irqbypass mac80211 hid_sensor_accel_3d snd_seq rapl hid_sensor_t>
+Nov 23 22:15:05 fedora kernel: CPU: 15 PID: 4365 Comm: Xorg Tainted: G        W         -------  ---  6.1.0-0.rc4.20221108git59f2f4b8a757.36.fc38.x86_64 #1
+Nov 23 22:15:05 fedora kernel: Hardware name: LENOVO 82QF/LNVNB161216, BIOS K5CN27WW 05/08/2022
+Nov 23 22:15:05 fedora kernel: RIP: 0010:modeset_lock+0x18d/0x1d0
+Nov 23 22:15:05 fedora kernel: Code: ff ff 0f 0b e9 c4 fe ff ff 48 89 de 48 89 ef e8 19 92 58 00 e9 ec fe ff ff 0f 0b e9 96 fe ff ff b8 f0 ff ff ff e9 b7 fe ff ff <0f> 0b e9>
+Nov 23 22:15:05 fedora kernel: RSP: 0018:ffffb954ce06b6a0 EFLAGS: 00010282
+Nov 23 22:15:05 fedora kernel: RAX: 0000000000000000 RBX: ffffb954ce06bc10 RCX: 0000000000000000
+Nov 23 22:15:05 fedora kernel: RDX: 000000000000000e RSI: 0000000000000000 RDI: 00000000ffffffff
+Nov 23 22:15:05 fedora kernel: RBP: ffff9a19411685d0 R08: 0000000000000001 R09: ffffb954ce06bc40
+Nov 23 22:15:05 fedora kernel: R10: ffffb954ce06b688 R11: 0000000000000001 R12: ffff9a1941168680
+Nov 23 22:15:05 fedora kernel: R13: ffff9a19b3225000 R14: ffff9a1ab3d40000 R15: 0000000000000001
+Nov 23 22:15:05 fedora kernel: FS:  00007fda9566efc0(0000) GS:ffff9a1c2fe00000(0000) knlGS:0000000000000000
+Nov 23 22:15:05 fedora kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+Nov 23 22:15:05 fedora kernel: CR2: 0000560c51a42328 CR3: 0000000116970000 CR4: 0000000000750ee0
+Nov 23 22:15:05 fedora kernel: PKRU: 55555554
+Nov 23 22:15:05 fedora kernel: Call Trace:
+Nov 23 22:15:05 fedora kernel:  <TASK>
+Nov 23 22:15:05 fedora kernel:  drm_atomic_get_private_obj_state+0x58/0x160
+Nov 23 22:15:05 fedora kernel:  compute_mst_dsc_configs_for_link+0x49/0x9c0 [amdgpu]
+Nov 23 22:15:05 fedora kernel:  ? _printk+0x5a/0x60
+Nov 23 22:15:05 fedora kernel:  ? __irq_exit_rcu+0xed/0x160
+Nov 23 22:15:05 fedora kernel:  ? rcu_read_lock_sched_held+0x10/0x80
+Nov 23 22:15:05 fedora kernel:  ? __warn.cold+0xb9/0x103
+Nov 23 22:15:05 fedora kernel:  pre_validate_dsc+0x3db/0x480 [amdgpu]
+Nov 23 22:15:05 fedora kernel:  amdgpu_dm_atomic_check+0x45f/0x11d0 [amdgpu]
+Nov 23 22:15:05 fedora kernel:  drm_atomic_check_only+0x542/0xbd0
+Nov 23 22:15:05 fedora kernel:  drm_atomic_commit+0x48/0xd0
+Nov 23 22:15:05 fedora kernel:  ? drm_plane_get_damage_clips.cold+0x1c/0x1c
+Nov 23 22:15:05 fedora kernel:  drm_atomic_helper_set_config+0x70/0xb0
+Nov 23 22:15:05 fedora kernel:  drm_mode_setcrtc+0x438/0x860
+Nov 23 22:15:05 fedora kernel:  ? drm_mode_getcrtc+0x190/0x190
+Nov 23 22:15:05 fedora kernel:  drm_ioctl_kernel+0xac/0x160
+Nov 23 22:15:05 fedora kernel:  drm_ioctl+0x1e7/0x450
+Nov 23 22:15:05 fedora kernel:  ? drm_mode_getcrtc+0x190/0x190
+Nov 23 22:15:05 fedora kernel:  amdgpu_drm_ioctl+0x4a/0x80 [amdgpu]
+Nov 23 22:15:05 fedora kernel:  __x64_sys_ioctl+0x90/0xd0
+Nov 23 22:15:05 fedora kernel:  do_syscall_64+0x5b/0x80
+Nov 23 22:15:05 fedora kernel:  ? lock_is_held_type+0xe8/0x140
+Nov 23 22:15:05 fedora kernel:  ? do_syscall_64+0x67/0x80
+Nov 23 22:15:05 fedora kernel:  ? lockdep_hardirqs_on+0x7d/0x100
+Nov 23 22:15:05 fedora kernel:  ? do_syscall_64+0x67/0x80
+Nov 23 22:15:05 fedora kernel:  ? lockdep_hardirqs_on+0x7d/0x100
+Nov 23 22:15:05 fedora kernel:  ? do_syscall_64+0x67/0x80
+Nov 23 22:15:05 fedora kernel:  ? do_syscall_64+0x67/0x80
+Nov 23 22:15:05 fedora kernel:  ? do_syscall_64+0x67/0x80
+Nov 23 22:15:05 fedora kernel:  ? lockdep_hardirqs_on+0x7d/0x100
+Nov 23 22:15:05 fedora kernel:  entry_SYSCALL_64_after_hwframe+0x63/0xcd
+Nov 23 22:15:05 fedora kernel: RIP: 0033:0x7fda95d0748f
+Nov 23 22:15:05 fedora kernel: Code: 00 48 89 44 24 18 31 c0 48 8d 44 24 60 c7 04 24 10 00 00 00 48 89 44 24 08 48 8d 44 24 20 48 89 44 24 10 b8 10 00 00 00 0f 05 <89> c2 3d>
+Nov 23 22:15:05 fedora kernel: RSP: 002b:00007ffd6eb3da80 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+Nov 23 22:15:05 fedora kernel: RAX: ffffffffffffffda RBX: 0000560c514461f0 RCX: 00007fda95d0748f
+Nov 23 22:15:05 fedora kernel: RDX: 00007ffd6eb3db10 RSI: 00000000c06864a2 RDI: 000000000000000e
+Nov 23 22:15:05 fedora kernel: RBP: 00007ffd6eb3db10 R08: 0000000000000000 R09: 0000560c514462a0
+Nov 23 22:15:05 fedora kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 00000000c06864a2
+Nov 23 22:15:05 fedora kernel: R13: 000000000000000e R14: 0000560c50990c40 R15: 0000560c507f09b0
+Nov 23 22:15:05 fedora kernel:  </TASK>
+Nov 23 22:15:05 fedora kernel: irq event stamp: 3002043
+Nov 23 22:15:05 fedora kernel: hardirqs last  enabled at (3002043): [<ffffffff9b366362>] mod_lruvec_page_state.constprop.0+0x42/0x50
+Nov 23 22:15:05 fedora kernel: hardirqs last disabled at (3002042): [<ffffffff9b36634e>] mod_lruvec_page_state.constprop.0+0x2e/0x50
+Nov 23 22:15:05 fedora kernel: softirqs last  enabled at (3001854): [<ffffffff9b1012ed>] __irq_exit_rcu+0xed/0x160
+Nov 23 22:15:05 fedora kernel: softirqs last disabled at (3001849): [<ffffffff9b1012ed>] __irq_exit_rcu+0xed/0x160
+Nov 23 22:15:05 fedora kernel: ---[ end trace 0000000000000000 ]---
+Nov 23 22:15:05 fedora kernel: BUG: kernel NULL pointer dereference, address: 0000000000000000
+Nov 23 22:15:05 fedora kernel: #PF: supervisor read access in kernel mode
+Nov 23 22:15:05 fedora kernel: #PF: error_code(0x0000) - not-present page
+Nov 23 22:15:05 fedora kernel: PGD 0 P4D 0 
+Nov 23 22:15:05 fedora kernel: Oops: 0000 [#1] PREEMPT SMP NOPTI
+Nov 23 22:15:05 fedora kernel: CPU: 15 PID: 4365 Comm: Xorg Tainted: G        W         -------  ---  6.1.0-0.rc4.20221108git59f2f4b8a757.36.fc38.x86_64 #1
+Nov 23 22:15:05 fedora kernel: Hardware name: LENOVO 82QF/LNVNB161216, BIOS K5CN27WW 05/08/2022
+Nov 23 22:15:05 fedora kernel: RIP: 0010:drm_atomic_get_private_obj_state+0xca/0x160
+Nov 23 22:15:05 fedora kernel: Code: 05 4c 01 e8 48 c7 00 00 00 00 00 48 c7 40 08 00 00 00 00 48 c7 40 10 00 00 00 00 48 c7 40 18 00 00 00 00 48 8b 83 d8 00 00 00 <48> 8b 00>
+Nov 23 22:15:05 fedora kernel: RSP: 0018:ffffb954ce06b6d0 EFLAGS: 00010282
+Nov 23 22:15:05 fedora kernel: RAX: 0000000000000000 RBX: ffff9a19411685c0 RCX: 0000000009c3400f
+Nov 23 22:15:05 fedora kernel: RDX: 0000000009c3200f RSI: 527a75f16fbc3347 RDI: ffff9a19411685c0
+Nov 23 22:15:05 fedora kernel: RBP: ffff9a1a1f8cf800 R08: 0000000000000000 R09: 0000000000000000
+Nov 23 22:15:05 fedora kernel: R10: ffff9a19f857de40 R11: 0000000000000001 R12: 0000000000000003
+Nov 23 22:15:05 fedora kernel: R13: 0000000000000040 R14: ffff9a1ab3d40000 R15: 0000000000000001
+Nov 23 22:15:05 fedora kernel: FS:  00007fda9566efc0(0000) GS:ffff9a1c2fe00000(0000) knlGS:0000000000000000
+Nov 23 22:15:05 fedora kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+Nov 23 22:15:05 fedora kernel: CR2: 0000000000000000 CR3: 0000000116970000 CR4: 0000000000750ee0
+Nov 23 22:15:05 fedora kernel: PKRU: 55555554
+Nov 23 22:15:05 fedora kernel: Call Trace:
+Nov 23 22:15:05 fedora kernel:  <TASK>
+Nov 23 22:15:05 fedora kernel:  compute_mst_dsc_configs_for_link+0x49/0x9c0 [amdgpu]
+Nov 23 22:15:05 fedora kernel:  ? _printk+0x5a/0x60
+Nov 23 22:15:05 fedora kernel:  ? __irq_exit_rcu+0xed/0x160
+Nov 23 22:15:05 fedora kernel:  ? rcu_read_lock_sched_held+0x10/0x80
+Nov 23 22:15:05 fedora kernel:  ? __warn.cold+0xb9/0x103
+Nov 23 22:15:05 fedora kernel:  pre_validate_dsc+0x3db/0x480 [amdgpu]
+Nov 23 22:15:05 fedora kernel:  amdgpu_dm_atomic_check+0x45f/0x11d0 [amdgpu]
+Nov 23 22:15:05 fedora kernel:  drm_atomic_check_only+0x542/0xbd0
+Nov 23 22:15:05 fedora kernel:  drm_atomic_commit+0x48/0xd0
+Nov 23 22:15:05 fedora kernel:  ? drm_plane_get_damage_clips.cold+0x1c/0x1c
+Nov 23 22:15:05 fedora kernel:  drm_atomic_helper_set_config+0x70/0xb0
+Nov 23 22:15:05 fedora kernel:  drm_mode_setcrtc+0x438/0x860
+Nov 23 22:15:05 fedora kernel:  ? drm_mode_getcrtc+0x190/0x190
+Nov 23 22:15:05 fedora kernel:  drm_ioctl_kernel+0xac/0x160
+Nov 23 22:15:05 fedora kernel:  drm_ioctl+0x1e7/0x450
+Nov 23 22:15:05 fedora kernel:  ? drm_mode_getcrtc+0x190/0x190
+Nov 23 22:15:05 fedora kernel:  amdgpu_drm_ioctl+0x4a/0x80 [amdgpu]
+Nov 23 22:15:05 fedora kernel:  __x64_sys_ioctl+0x90/0xd0
+Nov 23 22:15:05 fedora kernel:  do_syscall_64+0x5b/0x80
+Nov 23 22:15:05 fedora kernel:  ? lock_is_held_type+0xe8/0x140
+Nov 23 22:15:05 fedora kernel:  ? do_syscall_64+0x67/0x80
+Nov 23 22:15:05 fedora kernel:  ? lockdep_hardirqs_on+0x7d/0x100
+Nov 23 22:15:05 fedora kernel:  ? do_syscall_64+0x67/0x80
+Nov 23 22:15:05 fedora kernel:  ? lockdep_hardirqs_on+0x7d/0x100
+Nov 23 22:15:05 fedora kernel:  ? do_syscall_64+0x67/0x80
+Nov 23 22:15:05 fedora kernel:  ? do_syscall_64+0x67/0x80
+Nov 23 22:15:05 fedora kernel:  ? do_syscall_64+0x67/0x80
+Nov 23 22:15:05 fedora kernel:  ? lockdep_hardirqs_on+0x7d/0x100
+Nov 23 22:15:05 fedora kernel:  entry_SYSCALL_64_after_hwframe+0x63/0xcd
+Nov 23 22:15:05 fedora kernel: RIP: 0033:0x7fda95d0748f
+Nov 23 22:15:05 fedora kernel: Code: 00 48 89 44 24 18 31 c0 48 8d 44 24 60 c7 04 24 10 00 00 00 48 89 44 24 08 48 8d 44 24 20 48 89 44 24 10 b8 10 00 00 00 0f 05 <89> c2 3d>
+Nov 23 22:15:05 fedora kernel: RSP: 002b:00007ffd6eb3da80 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+Nov 23 22:15:05 fedora kernel: RAX: ffffffffffffffda RBX: 0000560c514461f0 RCX: 00007fda95d0748f
+Nov 23 22:15:05 fedora kernel: RDX: 00007ffd6eb3db10 RSI: 00000000c06864a2 RDI: 000000000000000e
+Nov 23 22:15:05 fedora kernel: RBP: 00007ffd6eb3db10 R08: 0000000000000000 R09: 0000560c514462a0
+Nov 23 22:15:05 fedora kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 00000000c06864a2
+Nov 23 22:15:05 fedora kernel: R13: 000000000000000e R14: 0000560c50990c40 R15: 0000560c507f09b0
+Nov 23 22:15:05 fedora kernel:  </TASK>
+Nov 23 22:15:05 fedora kernel: Modules linked in: r8153_ecm cdc_ether usbnet r8152 mii uas usb_storage snd_usb_audio snd_usbmidi_lib hid_cmedia snd_rawmidi uinput rfcomm snd>
+Nov 23 22:15:05 fedora kernel:  snd_pcm_dmaengine snd_rpl_pci_acp6x snd_pci_acp6x kvm snd_hda_core snd_hwdep irqbypass mac80211 hid_sensor_accel_3d snd_seq rapl hid_sensor_t>
+Nov 23 22:15:05 fedora kernel: CR2: 0000000000000000
+Nov 23 22:15:05 fedora kernel: ---[ end trace 0000000000000000 ]---
+Nov 23 22:15:05 fedora kernel: RIP: 0010:drm_atomic_get_private_obj_state+0xca/0x160
+Nov 23 22:15:05 fedora kernel: Code: 05 4c 01 e8 48 c7 00 00 00 00 00 48 c7 40 08 00 00 00 00 48 c7 40 10 00 00 00 00 48 c7 40 18 00 00 00 00 48 8b 83 d8 00 00 00 <48> 8b 00>
+Nov 23 22:15:05 fedora kernel: RSP: 0018:ffffb954ce06b6d0 EFLAGS: 00010282
+Nov 23 22:15:05 fedora kernel: RAX: 0000000000000000 RBX: ffff9a19411685c0 RCX: 0000000009c3400f
+Nov 23 22:15:05 fedora kernel: RDX: 0000000009c3200f RSI: 527a75f16fbc3347 RDI: ffff9a19411685c0
+Nov 23 22:15:05 fedora kernel: RBP: ffff9a1a1f8cf800 R08: 0000000000000000 R09: 0000000000000000
+Nov 23 22:15:05 fedora kernel: R10: ffff9a19f857de40 R11: 0000000000000001 R12: 0000000000000003
+Nov 23 22:15:05 fedora kernel: R13: 0000000000000040 R14: ffff9a1ab3d40000 R15: 0000000000000001
+Nov 23 22:15:05 fedora kernel: FS:  00007fda9566efc0(0000) GS:ffff9a1c2fe00000(0000) knlGS:0000000000000000
+Nov 23 22:15:05 fedora kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+Nov 23 22:15:05 fedora kernel:  ? lockdep_hardirqs_on+0x7d/0x100
+Nov 23 22:15:05 fedora kernel:  entry_SYSCALL_64_after_hwframe+0x63/0xcd
+Nov 23 22:15:05 fedora kernel: RIP: 0033:0x7fda95d0748f
+Nov 23 22:15:05 fedora kernel: Code: 00 48 89 44 24 18 31 c0 48 8d 44 24 60 c7 04 24 10 00 00 00 48 89 44 24 08 48 8d 44 24 20 48 89 44 24 10 b8 10 00 00 00 0f 05 <89> c2 3d>
+Nov 23 22:15:05 fedora kernel: RSP: 002b:00007ffd6eb3da80 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+Nov 23 22:15:05 fedora kernel: RAX: ffffffffffffffda RBX: 0000560c514461f0 RCX: 00007fda95d0748f
+Nov 23 22:15:05 fedora kernel: RDX: 00007ffd6eb3db10 RSI: 00000000c06864a2 RDI: 000000000000000e
+Nov 23 22:15:05 fedora kernel: RBP: 00007ffd6eb3db10 R08: 0000000000000000 R09: 0000560c514462a0
+Nov 23 22:15:05 fedora kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 00000000c06864a2
+Nov 23 22:15:05 fedora kernel: R13: 000000000000000e R14: 0000560c50990c40 R15: 0000560c507f09b0
+Nov 23 22:15:05 fedora kernel:  </TASK>
+Nov 23 22:15:05 fedora kernel: Modules linked in: r8153_ecm cdc_ether usbnet r8152 mii uas usb_storage snd_usb_audio snd_usbmidi_lib hid_cmedia snd_rawmidi uinput rfcomm snd>
+Nov 23 22:15:05 fedora kernel:  snd_pcm_dmaengine snd_rpl_pci_acp6x snd_pci_acp6x kvm snd_hda_core snd_hwdep irqbypass mac80211 hid_sensor_accel_3d snd_seq rapl hid_sensor_t>
+Nov 23 22:15:05 fedora kernel: CR2: 0000000000000000
+Nov 23 22:15:05 fedora kernel: ---[ end trace 0000000000000000 ]---
+Nov 23 22:15:05 fedora kernel: RIP: 0010:drm_atomic_get_private_obj_state+0xca/0x160
+Nov 23 22:15:05 fedora kernel: Code: 05 4c 01 e8 48 c7 00 00 00 00 00 48 c7 40 08 00 00 00 00 48 c7 40 10 00 00 00 00 48 c7 40 18 00 00 00 00 48 8b 83 d8 00 00 00 <48> 8b 00>
+Nov 23 22:15:05 fedora kernel: RSP: 0018:ffffb954ce06b6d0 EFLAGS: 00010282
+Nov 23 22:15:05 fedora kernel: RAX: 0000000000000000 RBX: ffff9a19411685c0 RCX: 0000000009c3400f
+Nov 23 22:15:05 fedora kernel: RDX: 0000000009c3200f RSI: 527a75f16fbc3347 RDI: ffff9a19411685c0
+Nov 23 22:15:05 fedora kernel: RBP: ffff9a1a1f8cf800 R08: 0000000000000000 R09: 0000000000000000
+Nov 23 22:15:05 fedora kernel: R10: ffff9a19f857de40 R11: 0000000000000001 R12: 0000000000000003
+Nov 23 22:15:05 fedora kernel: R13: 0000000000000040 R14: ffff9a1ab3d40000 R15: 0000000000000001
+Nov 23 22:15:05 fedora kernel: FS:  00007fda9566efc0(0000) GS:ffff9a1c2fe00000(0000) knlGS:0000000000000000
+Nov 23 22:15:05 fedora kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+Nov 23 22:15:05 fedora kernel: CR2: 0000000000000000 CR3: 0000000116970000 CR4: 0000000000750ee0
+Nov 23 22:15:05 fedora kernel: PKRU: 55555554
+Nov 23 22:15:07 fedora ModemManager[1933]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:08.3/0000:34:00.4/usb10/10-1/10-1.4/10-1>
+Nov 23 22:15:07 fedora boltd[1934]: probing: timeout, done: [2275483] (2000000)
+Nov 23 22:15:15 fedora systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Nov 23 22:15:15 fedora audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-hostnamed comm="systemd" exe="/us>
+Nov 23 22:15:15 fedora audit: BPF prog-id=0 op=UNLOAD
+Nov 23 22:15:15 fedora audit: BPF prog-id=0 op=UNLOAD
+Nov 23 22:15:16 fedora systemd[1]: virtqemud.service: Deactivated successfully.
+Nov 23 22:15:16 fedora audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=virtqemud comm="systemd" exe="/usr/lib/sy>
+Nov 23 22:15:18 fedora abrt-server[4003]: Deleting problem directory ccpp-2022-11-23-22:13:59.226590-3518 (dup of ccpp-2022-11-23-21:48:55.45783-3501)
+Nov 23 22:15:18 fedora abrt-notification[6350]: [🡕] Process 3501 (plasmashell) crashed in qt_message_output(QtMsgType, QMessageLogContext const&, QString const&) [clone .col>
+Nov 23 22:15:26 fedora systemd[1]: systemd-timedated.service: Deactivated successfully.
+Nov 23 22:15:26 fedora audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-timedated comm="systemd" exe="/us>
+Nov 23 22:15:26 fedora audit: BPF prog-id=0 op=UNLOAD
+Nov 23 22:15:26 fedora audit: BPF prog-id=0 op=UNLOAD
+Nov 23 22:15:26 fedora audit: BPF prog-id=0 op=UNLOAD
+Nov 23 22:15:30 fedora kernel: usb 9-1: USB disconnect, device number 2
