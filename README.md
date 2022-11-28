@@ -56,7 +56,7 @@
 
 ## Other stuff:
 ### More issues I've noticed:
- - Kernel 6.1 is incompatible with my (Delock) USB-C dock(system freezes)(Fixed in kernel 6.1-rc7)
+ - ~~Kernel 6.1 is incompatible with my (Delock) USB-C dock(system freezes)~~(Fixed in kernel 6.1-rc7)
  - Waking up from hibernation often needs longer than a reboot/regular system start
 
 ### Resources:
