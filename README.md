@@ -12,11 +12,11 @@ _**For more information take a look at the [issues](https://github.com/tomsom/yo
 > **Kernel independent:**
  > - [x] **S4 sleep | Hibernating (guide is still missing)**
  > - As an alternative for S3 sleep, S4 sleep can be made use of (requires a SWAP partition).
- > - [x] **Screen rotation**
+ > - [x] **Screen rotation [(see here)](https://github.com/tomsom/yoga-linux/wiki/Autorotation)**
  > - Automatic rotation does not work out of the box in GNOME for some reason.
  > - Can be fixed with an [extension](https://github.com/shyzus/gnome-shell-extension-screen-autorotate) and `iio-sensor-proxy`.
  
-> **Kernel 6.1+:**
+> **Kernel 6.1+[(see here)](https://github.com/tomsom/yoga-linux/wiki/Kernel-Upgrade):**
  > - [x] **Microphone is working**
  > - [x] **S2Idle is working**
  > - Laptop seems to reliably go to this state (and is also waking up without issues for most laptops).
@@ -26,7 +26,7 @@ _**For more information take a look at the [issues](https://github.com/tomsom/yo
 
 ## Partially Fixed:
 > **Kernel independent:**
-> - [x] **Speakers**
+> - [x] **Speakers [(see here)](https://github.com/tomsom/yoga-linux/wiki/Audio-Fix)**
 > - Switch to the bottom firing woofers makes the sound bearable, having all 4 speakers working in parallel is still WIP.
 > - [X] **GRUB scaling**
 > - Because of the 2.8K display the text in GRUB is very small and hardly readable.
