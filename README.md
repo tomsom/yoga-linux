@@ -46,6 +46,7 @@ _**For more information take a look at the [issues](https://github.com/tomsom/yo
 ### Remaining issues that don't seem to impact all Yoga 7 Gen 7 users:
 
  > - [ ] **Waking up from hibernation often needs longer than a reboot/regular system start**
+
  > - [ ] **Cursor jumps around the screen**
  >  - This is caused by PSR (Panel Self-Refresh), and can be worked around using `amdgpu.dcdebugmask=0x10` as a kernel parameter
  >  - This value is documented [here](https://github.com/torvalds/linux/blob/8813381a62e1f1703f8fbeccc5fa4fcc988be882/drivers/gpu/drm/amd/include/amd_shared.h#L250)
