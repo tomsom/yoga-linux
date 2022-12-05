@@ -4,6 +4,8 @@
 
 _**For more information take a look at the [issues](https://github.com/tomsom/yoga-linux/issues)**_
 
+_**Note: In some cases devices with a Kioxia SSD installed can get bricked while installing Linux if the firmware does not get updated via Windows beforehand! [See #7](https://github.com/tomsom/yoga-linux/issues/7).**_
+
 ## Wiki links:
  - [This project](../../wiki)
  - [Arch Wiki](https://wiki.archlinux.org/title/Lenovo_Yoga_7_Gen_7_(14ARB7))
