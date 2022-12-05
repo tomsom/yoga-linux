@@ -10,6 +10,8 @@ _**For more information take a look at the [issues](https://github.com/tomsom/yo
 
 ## Latest Fixes:
 > **Kernel independent:**
+ > - [x] **Fingerprint Sensor**
+ > - Seems to be working with the driver from this [Copr repo](https://copr.fedorainfracloud.org/coprs/d-k-bo/libfprint-goodixtls/).
  > - [x] **S4 sleep | Hibernating (guide is still missing)**
  > - As an alternative for S3 sleep, S4 sleep can be made use of (requires a SWAP partition).
  > - [x] **Screen rotation**
