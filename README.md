@@ -10,16 +10,13 @@ _**For more information take a look at the [issues](https://github.com/tomsom/yo
 
 ## Latest Fixes:
 > **Kernel independent:**
- > - [x] **Fingerprint Sensor**
- > - Seems to be working with the driver from this [Copr repo](https://copr.fedorainfracloud.org/coprs/d-k-bo/libfprint-goodixtls/).
  > - [x] **S4 sleep | Hibernating (guide is still missing)**
  > - As an alternative for S3 sleep, S4 sleep can be made use of (requires a SWAP partition).
  > - [x] **Screen rotation**
  > - Automatic rotation does not work out of the box in GNOME for some reason.
- > - Can be fixed with an [extension](https://github.com/shyzus/gnome-shell-extension-screen-autorotate).
+ > - Can be fixed with an [extension](https://github.com/shyzus/gnome-shell-extension-screen-autorotate) and `iio-sensor-proxy`.
  
 > **Kernel 6.1+:**
- > - [x] **Fixed incompatibility with 'Delock' USB-C dock**
  > - [x] **Microphone is working**
  > - [x] **S2Idle is working**
  > - Laptop seems to reliably go to this state (and is also waking up without issues for most laptops).
@@ -32,16 +29,18 @@ _**For more information take a look at the [issues](https://github.com/tomsom/yo
 > - [x] **Speakers**
 > - Switch to the bottom firing woofers makes the sound bearable, having all 4 speakers working in parallel is still WIP.
 > - [X] **GRUB scaling**
-> 
 > - Because of the 2.8K display the text in GRUB is very small and hardly readable.
 > - This can be partially fixed by using a GRUB theme that forces a font size, or manually configuring GRUB.
 
 ## Remaining Issues:
 > - [ ] **Speakers quality**
 > - Even after both 4 speakers get working all together, another challenge will be tune them to sound like they do in Windows with Dolby.
-
+> - [ ] **Issues with *some* USB-C docks**
+> - Better support will probably come with Kernel 6.2
 > - [ ] **S3 sleep | Suspending**
 > - No option for regular S3 sleep support.
+> - [ ] **Fingerprint Sensor**
+> - Very much work in progress; But some promising stuff to look into: [libfprint-goodixtls](https://copr.fedorainfracloud.org/coprs/d-k-bo/libfprint-goodixtls/) copr repo.
 
 ### Remaining issues that don't seem to impact all Yoga 7 Gen 7 users:
 
