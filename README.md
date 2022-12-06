@@ -60,6 +60,7 @@ _**Note: In some cases devices with a Kioxia SSD installed can get bricked while
 ## Useful links:
 ### Resources:
  - More on sleep states: https://www.kernel.org/doc/Documentation/power/states.txt
+ - Tablet mode fix: https://github.com/alesya-h/linux_detect_tablet_mode
 
 ### Relevant patches:
  - Microphone:
