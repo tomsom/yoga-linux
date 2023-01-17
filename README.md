@@ -18,7 +18,7 @@ _**Note: In some cases devices with a Kioxia SSD installed can get bricked while
  > - Automatic rotation does not work out of the box in GNOME for some reason.
  > - Can be fixed with an [extension](https://github.com/shyzus/gnome-shell-extension-screen-autorotate) and `iio-sensor-proxy`.
  
-> **Kernel 6.1+[(see here)](https://github.com/tomsom/yoga-linux/wiki/Kernel-Upgrade):**
+> **Kernel 6.1+:**
  > - [x] **Microphone is working**
  > - [x] **S2Idle is working**
  > - Laptop seems to reliably go to this state (and is also waking up without issues for most laptops).
@@ -28,15 +28,15 @@ _**Note: In some cases devices with a Kioxia SSD installed can get bricked while
 
 ## Partially Fixed:
 > **Kernel independent:**
-> - [x] **Speakers [(see here)](https://github.com/tomsom/yoga-linux/wiki/Audio-Fix)**
-> - Switch to the bottom firing woofers makes the sound bearable, having all 4 speakers working in parallel is still WIP.
-> - [X] **GRUB scaling**
-> - Because of the 2.8K display the text in GRUB is very small and hardly readable.
-> - This can be partially fixed by using a GRUB theme that forces a font size, or manually configuring GRUB.
+ > - [X] **GRUB scaling**
+ > - Because of the 2.8K display the text in GRUB is very small and hardly readable.
+ > - This can be partially fixed by using a GRUB theme that forces a font size, or manually configuring GRUB.
+
+> **Kernel 6.1+:**
+ > - [x] **Speakers [(see here)](https://github.com/tomsom/yoga-linux/wiki/Audio-Fix)**
+ > - All speakers correctly working using the fix, there is also a workaround for equalization in the [(wiki)](https://github.com/tomsom/yoga-linux/wiki/Equalization-Fix).
 
 ## Remaining Issues:
-> - [ ] **Speakers quality**
-> - Even after both 4 speakers get working all together, another challenge will be tune them to sound like they do in Windows with Dolby.
 > - [ ] **Issues with *some* USB-C docks**
 > - Better support will probably come with Kernel 6.2
 > - [ ] **S3 sleep | Suspending**
