@@ -40,7 +40,7 @@ _**Note: In some cases devices with a Kioxia SSD installed can get bricked while
 > - [ ] **Issues with *some* USB-C docks**
 > - Better support will probably come with Kernel 6.2
 > - [ ] **S3 sleep | Suspending**
-> - No option for regular S3 sleep support.
+> - No option for regular S3 sleep support. [There seems to be no support for this by Ryzen 6000/Rembrandt](https://gitlab.freedesktop.org/drm/amd/-/issues/2148#note_1528729) so there is no fix insight :(
 > - [ ] **Fingerprint Sensor**
 > - Very much work in progress; But some promising stuff to look into: [libfprint-goodixtls](https://copr.fedorainfracloud.org/coprs/d-k-bo/libfprint-goodixtls/) copr repo.
 
