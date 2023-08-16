@@ -17,8 +17,15 @@ _**Note: In some cases devices with a Kioxia SSD installed can get bricked while
  > - [x] **Screen rotation [(see here)](https://github.com/tomsom/yoga-linux/wiki/Autorotation)**
  > - Automatic rotation does not work out of the box in GNOME for some reason.
  > - Can be fixed with an [extension](https://github.com/shyzus/gnome-shell-extension-screen-autorotate) and `iio-sensor-proxy`.
- 
-> **Kernel 6.1+[(see here)](https://github.com/tomsom/yoga-linux/wiki/Kernel-Upgrade):**
+
+> **Kernel 6.5+[(see here)](https://github.com/tomsom/yoga-linux/wiki/Kernel-Upgrade):**
+ > - [x] **System crashes after resuming**
+ > - Yoga laptops with Samsung SSDs may become unstable after resuming from s2idle
+ > - This is a firmware bug in the SSD (PCI ID `0xa80b`)
+ > - This issue is better documented [here](https://github.com/tomsom/yoga-linux/issues/9)
+ > - Also fixed in 6.4.11 and 6.1.46
+
+> **Kernel 6.1+:**
  > - [x] **Microphone is working**
  > - [x] **S2Idle is working**
  > - Laptop seems to reliably go to this state (and is also waking up without issues for most laptops).
@@ -51,11 +58,6 @@ _**Note: In some cases devices with a Kioxia SSD installed can get bricked while
  > - [ ] **Cursor jumps around the screen**
  >  - This is caused by PSR (Panel Self-Refresh), and can be worked around using `amdgpu.dcdebugmask=0x10` as a kernel parameter
  >  - This value is documented [here](https://github.com/torvalds/linux/blob/8813381a62e1f1703f8fbeccc5fa4fcc988be882/drivers/gpu/drm/amd/include/amd_shared.h#L250)
-
- > - [ ] **System crashes after resuming**
- >  - Yoga laptops with Samsung SSDs may become unstable after resuming from s2idle
- >  - This is a firmware bug in the SSD (PCI ID `0xa80b`)
- >  - This issue is better documented [here](https://github.com/tomsom/yoga-linux/issues/9)
 
 ## Useful links:
 ### Resources:
